@@ -1,0 +1,5 @@
+<h1>My tasks</h1>
+
+<li><%= @task.completed %> <%= @task.title %></li>
+
+<%= link_to 'Destroy', task_delete_path, method: :delete %>
